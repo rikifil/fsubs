@@ -6,12 +6,12 @@ Click the button below to deploy on Heroku!
 
 ## Deploy in your VPS
 ````bash
-git clone https://github.com/IndomieGorengSatu/repo-4-buttons
-cd repo-4-buttons
+git clone https://github.com/Friscay/fsubs
+cd fsubs
 pip3 install -r requirements.txt
 cp sample_config.env config.env
 # edit config.env Anda dan isi VARS menggunakan nano config.env CTRL + S untuk menyimpan VARS Anda, 
-# gunakan CTRL + X untuk keluar dan kembali ke direktori 2-subs-ch-gc
+# gunakan CTRL + X untuk keluar dan kembali ke direktori fsubs
 bash start
 ````
 
