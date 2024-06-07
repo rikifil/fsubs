@@ -1,0 +1,14 @@
+# --- For-Web-Response ------- #
+aiohttp
+dnspython
+feedparser
+gitpython
+heroku3
+psycopg2-binary
+pyrogram
+pymongo
+python-dotenv
+Pyromod==1.5
+speedtest-cli
+TgCrypto
+wget
