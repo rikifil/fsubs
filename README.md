@@ -2,7 +2,7 @@
 
 Click the button below to deploy on Heroku!
 
-[![Deploy to heroku](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/IndomieGorengSatu/repo-4-buttons)
+[![Deploy to heroku](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/Friscay/fsubs)
 
 ## Deploy in your VPS
 ````bash
@@ -19,7 +19,7 @@ bash start
 
 The fastest way to deploy the application is to click the **Deploy to Koyeb** button below.
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Yudacakep/Sub-4-&branch=develop&name=repo-4-buttons)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Friscay/fsubs&branch=develop&name=filesharing)
 
 <details>
 <summary><h3><b>🔗 Extra Custom & List Vars</b></h3></summary>
@@ -36,6 +36,8 @@ The fastest way to deploy the application is to click the **Deploy to Koyeb** bu
 * `FORCE_SUB_MESSAGE` Opsional: Pesan Paksa Subscribe bot, Gunakan Format parsemode HTML
 * `FORCE_SUB_CHANNEL` Masukan ID dari Channel Untuk Wajib Subscribenya
 * `FORCE_SUB_GROUP` Masukan ID dari Group Untuk Wajib Subscribenya
+* `FORCE_SUB_CHANNEL2` Masukan ID dari Channel Untuk Wajib Subscribenya
+* `FORCE_SUB_GROUP2` Masukan ID dari Group Untuk Wajib Subscribenya
 
 ### Extra Variables
 
