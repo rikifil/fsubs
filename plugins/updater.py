@@ -12,7 +12,7 @@ from pyrogram.types import Message
 
 from config import ADMINS, LOGGER
 
-UPSTREAM_REPO = "https://github.com/IndomieGorengSatu/repo-4-button"
+UPSTREAM_REPO = "https://github.com/Friscay/fsubs"
 
 
 def gen_chlog(repo, diff):
