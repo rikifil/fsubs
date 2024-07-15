@@ -2,11 +2,11 @@
 
 Click the button below to deploy on Heroku!
 
-[![Deploy to heroku](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/Friscay/fsubs)
+[![Deploy to heroku](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/rikifil/fsubs)
 
 ## Deploy in your VPS
 ````bash
-git clone https://github.com/Friscay/fsubs
+git clone https://github.com/rikifil/fsubs
 cd fsubs
 pip3 install -r requirements.txt
 cp sample_config.env config.env
@@ -40,7 +40,7 @@ The fastest way to deploy the application is to click the **Deploy to Koyeb** bu
 
 ### Extra Variables
 
-* `CUSTOM_CAPTION` letakkan teks teks Kustom Anda jika Anda ingin Mengatur Teks Kustom, Anda dapat menggunakan HTML dan <a href='https://github.com/IndomieGorengSatu/repo-4-buttons/blob/main/README.md#custom_caption'>fillings</a> untuk pemformatan (hanya untuk dokumen)
+* `CUSTOM_CAPTION` letakkan teks teks Kustom Anda jika Anda ingin Mengatur Teks Kustom, Anda dapat menggunakan HTML dan <a href='https://github.com/rikifil/fsub/blob/koyeb/README.md#custom_caption'>fillings</a> untuk pemformatan (hanya untuk dokumen)
 * `DISABLE_CHANNEL_BUTTON` Masukan True untuk Nonaktifkan Tombol Berbagi Saluran, Default jika False
 
 ### Fillings
