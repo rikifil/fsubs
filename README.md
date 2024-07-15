@@ -19,7 +19,7 @@ bash start
 
 The fastest way to deploy the application is to click the **Deploy to Koyeb** button below.
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/rikifil/fsubs&branch=koyeb&name=filesharing)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/rikifil/fsubs&branch=koyeb-2&name=filesharing)
 
 <details>
 <summary><h3><b>🔗 Extra Custom & List Vars</b></h3></summary>
