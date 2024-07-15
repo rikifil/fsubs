@@ -5,6 +5,21 @@ from pyrogram.types import InlineKeyboardButton
 
 
 def start_button(client):
+    if not FORCE_SUB_CHANNEL and not FORCE_SUB_CHANNEL2 and not FORCE_SUB_GROUP and not FORCE_SUB_GROUP2:
+        buttons = [
+            [
+                InlineKeyboardButton(text="• ᴄʜᴀɴɴᴇʟ •", url=client.invitelink),
+                InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=client.invitelink2),
+            ],
+            [
+                InlineKeyboardButton(text="• ᴄʜᴀɴɴᴇʟ •", url=client.invitelink3),
+                InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url=client.invitelink4),
+            ],
+            [
+                InlineKeyboardButton(text="ᴛᴜᴛᴜᴘ", callback_data="close"),
+            ],
+        ]
+        return buttons
     if not FORCE_SUB_CHANNEL and not FORCE_SUB_CHANNEL2 and not FORCE_SUB_GROUP2 and FORCE_SUB_GROUP:
         buttons = [
             [
@@ -28,7 +43,7 @@ def start_button(client):
     if not FORCE_SUB_CHANNEL and not FORCE_SUB_CHANNEL2 and not FORCE_SUB_GROUP and FORCE_SUB_GROUP2:
         buttons = [
             [
-                InlineKeyboardButton(text="ɢʀᴏᴜᴘ 2", url=client.invitelink4),
+                InlineKeyboardButton(text="ɢʀᴏᴜᴘ", url=client.invitelink4),
             ],
             [
                 InlineKeyboardButton(text="ᴛᴜᴛᴜᴘ", callback_data="close"),
